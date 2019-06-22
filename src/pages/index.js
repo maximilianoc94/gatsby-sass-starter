@@ -1,17 +1,26 @@
 import React from "react";
+import { graphql } from "gatsby";
 import Layout from "../layout";
-import Image from "components/shared/image";
+
 import SEO from "components/shared/seo";
+import Hero from "components/hero";
+import About from "components/about";
+import Services from "components/services";
+import Projects from "components/projects";
+import Team from "components/our-team";
+import Technologies from "components/technologies";
+import Contact from "components/contact";
 
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image image={data.astronaut} />
-    </div>
+    <Hero />
+    <About />
+    <Services />
+    <Projects />
+    <Team />
+    <Technologies />
+    <Contact />
   </Layout>
 );
 
