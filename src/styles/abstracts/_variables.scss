@@ -1,0 +1,35 @@
+// Colors
+$primary: #c0a16a;
+$secondary: #ef7e54;
+$transparent: rgba(0, 0, 0, 0);
+$text: #7a8191;
+$text-dark: #1f242f;
+$text-light: #d6d6d6;
+$grey-bg: #f9f9f9;
+$grey-bg-dark: #efefef;
+$error: #cc0000;
+$white: #fff;
+$black: #000;
+$border: #f2f2f2;
+
+// fonts
+$font-light-italic: 'Roboto-LightItalic', sans-serif;
+$font-italic: 'Roboto-Italic', sans-serif;
+$font-medium-italic: 'Roboto-MediumItalic', sans-serif;
+$font-bold-italic: 'Roboto-BoldItalic', sans-serif;
+$font-light: 'Roboto-Light', sans-serif;
+$font-regular: 'Roboto-Regular', sans-serif;
+$font-medium: 'Roboto-Medium', sans-serif;
+$font-bold: 'Roboto-Bold', sans-serif;
+
+// breakpoints
+$sm: 375;
+$md: 768;
+$lg: 1230;
+
+//z-index
+$overlay: 100;
+$modal: 99;
+$toast: 98;
+$navbar: 97;
+
