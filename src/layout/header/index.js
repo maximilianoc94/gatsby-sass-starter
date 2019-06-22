@@ -5,8 +5,8 @@ import styles from "./header.module.scss";
 const propTypes = {};
 const defaultProps = {};
 
-function Header(props){
-  return <div>header component works</div>;
+function Header(props) {
+  return <navbar>header component works</navbar>;
 }
 
 Header.propTypes = propTypes;

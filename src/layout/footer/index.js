@@ -5,8 +5,8 @@ import styles from "./footer.module.scss";
 const propTypes = {};
 const defaultProps = {};
 
-function Footer(props){
-  return <div>footer component works</div>;
+function Footer(props) {
+  return <section>footer component works</section>;
 }
 
 Footer.propTypes = propTypes;
