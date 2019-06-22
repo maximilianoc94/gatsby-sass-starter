@@ -6,7 +6,7 @@ const propTypes = {};
 const defaultProps = {};
 
 function Footer(props) {
-  return <section>footer component works</section>;
+  return <footer>footer component works</footer>;
 }
 
 Footer.propTypes = propTypes;
