@@ -1,10 +1,13 @@
-import React from "react";
-import styles from "./section.module.scss";
+import React from 'react';
+import styles from './section.module.scss';
+import { scss } from '../../../utils';
 
-function Section({ children, bkgClassName }) {
+function Section({ children, bkgClassName, ...props }) {
   return (
-    <section className={`${styles.section} ${bkgClassName}`}>
-      <div className={styles.container}>{children}</div>
+    <section className={scss(styles.section, bkgClassName)}>
+      <div className={styles.container} {...props}>
+        {children}
+      </div>
     </section>
   );
 }
